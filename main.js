@@ -69,5 +69,11 @@ console.log(alfabeto);
 
 function classificaSenha(){
     forcaSenha.classList.remove('fraca','media','forte');
-    forcaSenha.classList.add('forte');
+    if (tamanhoSenha > 11){
+        forcaSenha.classList.add('forte');
+}
+else {
+forcaSenha.classList.add('media');
+}
+forcaSenha.classList.add('forte');
 }
