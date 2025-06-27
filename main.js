@@ -75,5 +75,3 @@ function classificaSenha(){
 else {
 forcaSenha.classList.add('media');
 }
-forcaSenha.classList.add('forte');
-}
