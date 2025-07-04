@@ -77,4 +77,5 @@ function classificaSenha(){
         forcaSenha.classList.add('fraca');
     }
     let entropia = tamanhoSenha * Math.log2(alfabeto.length);
+    console.log(entropia);
 }
